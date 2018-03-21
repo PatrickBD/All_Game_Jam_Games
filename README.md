@@ -28,3 +28,11 @@ A ship crash lands on a small rogue planet far away from any star. The survivors
 
 ==Notes on the source code==
 If you are here that means you are going to look at my source code ( I feel violated >.< ). Keep in mind this was done in a 48 hour compo so some inefficent code, coder debt, and quite a bit of zombie code is in here to try and rush it in for the deadline. Sorry for any confusion. I'm usually cleaner.
+
+# Progress-Kingdom
+Automated kingdom building idle game using html/javascript
+
+Enjoy the perfect idle game. It does not even make you click pointless buttons to make you feel like you're accomplishing something. Just leave the page up and watch your kingdom grow! Game Currently takes around 3 hours to complete but the debug button is currently open for cheating. This game is a take on the new trend with idle "games". Idle games require the player to check in and colect coins or click on upgrade buttons or other pointless tasks. Why not just drop the pretense at this point and let the game play itself? Progress Kingdom does just that!
+
+# ALBI: The First Great AI Computer
+ALBI: The First Great AI Computer is an html/javascript game with original ascii art and word puzzles. It was made in less than 48 hours for the Ludum Dare competition. Working within the time limits, The game is not 100% complete by the dare deadline. This the Ludum Dare version and I'm keeping this as is, so it is only what I coded by the 48 hour deadline. If I finish the game, it will be in a different file. However, There is an ending and it is accessible if you can find it. The art and flavor is pretty well there too.

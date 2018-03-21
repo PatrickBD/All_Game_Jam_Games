@@ -1,0 +1,42 @@
+<html lang="en-us">
+<head>
+  <title>Punch it good!</title>
+  <meta charset="UTF-8">
+  <link href="app.css" rel="stylesheet" media="all">
+  <script src="jquery-3.1.0.js"></script>
+  <script src="jquery-ui.js"></script>
+</head>
+
+<body>
+  <p id="JavascriptBlock"><img src="images/Cyber_Squirrel.png" width="100px" height="100px"></img>If you are seeing this, the javascript is blocked and the game won't play. Pleased to be unblocking. :)</p>
+
+<div id="GameHide">
+  <div id="Playarea">
+    <!-- <div id="DebugOptions">
+      <button id='HourSkipButton'>D:Skip Hour</button>
+      <button id='MinuteSkipButton'>D:Skip Minute</button>
+      <button id='TransitionButton'>D:Transition</button>
+      <br><br>
+    </div> -->
+    <div id="ScoreLine">
+      <button id='SoundMuteButton'>SFX</button>
+      <button id='MuteButton'>Music</button>
+      <button id='PauseButton'>Pause</button>
+      <button id='FullScreenButton'>Full Screen</button>
+      <!-- <button id='StartButton' title=''>Start</button> -->
+      <a id="Log"></a>
+      <a id="TimeKeeper"></a>
+    </div>
+    <div id="ScoreLine2">
+      <div id="Score"></div>
+      <div id="Alarm"></div>
+    </div>
+    <canvas id="canvas" height="600px" width="600px" ></canvas>
+    <p id="PageText" visibility = "hidden" ></p>
+    <!-- <span id="StatusText" title=""></span> -->
+  </div>
+  <script  src="app.js"></script>
+  <audio id="MusicPlayer" src="I_Swear_Im_Trying.mp3" volume="0.01" loop></audio>
+</div>
+</body>
+</html>

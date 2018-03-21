@@ -1,0 +1,172 @@
+html {
+  background-color: black;
+  color: green;
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+
+button {
+  background-color: black;
+  color: green;
+}
+input {
+  background-color: black;
+  color: green;
+}
+h1 {
+  text-align: center;
+  padding-right: 450px;
+  margin: 10px;
+  margin-bottom: 0px;
+}
+h4 {
+  padding: 0px;
+  margin: 0px;
+}
+
+button {
+  float: left;
+  background-image: url("images/button.png");
+  background-color: #cccccc;
+  background-size: 100%;
+  color: black;
+}
+
+p {
+  display: block;
+}
+
+#GameHide {
+  visibility: hidden;
+}
+#ScoreLine {
+  border: 2px solid white;
+  width: 602px;
+  height: 22px;
+  margin-left: 0px;
+  margin-top: 1px;
+}
+
+#ScoreLine2 {
+  border: 2px solid white;
+  border-top: 0px;
+  width: 602px;
+  height: 48px;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+#Score {
+  border: 0px;
+  margin: 0px;
+  margin-left: 0;
+  margin-bottom: 0;
+  height: 100%;
+  width: 57.25%;
+  /*font-family: "Comic Sans MS", "Comic Sans", cursive;*/
+  font-size: 40px;
+  float: left;
+}
+
+#Alarm {
+  color: red;
+  height: 100%;
+  width: 25%;
+  font-size: 40px;
+  align: right;
+  float: right;
+}
+
+
+#TimeKeeper {
+  border-right: 2px solid white;
+  border-left: 2px solid white;
+  float: right;
+  height: 100%;
+}
+
+.UpgradeButtons {
+  display: block;
+  vertical-align: baseline;
+  width: 297px;
+  height: 8%;
+  padding: 0;
+  background-image: url("images/button.png");
+  background-color: #cccccc;
+  background-size: 100%;
+  color: black;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.DifficultyButtons {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.ui-tooltip {
+  background-color: black;
+  border: 2px solid white;
+  color: green;
+  font: bold 14px "Helvetica Neue", Sans-Serif;
+  text-transform: uppercase;
+  width: auto;
+  height: auto;
+  position: absolute;
+}
+
+#StatusText {
+  width: 297px;
+  float:left;
+  padding: 0;
+  margin: 0;
+  height: 502px;
+  border: 2px solid white;
+  border-top: 0px;
+  border-left: 0px;
+  align: right;
+}
+
+#canvas {
+  border: 2px solid white;
+  width: 600px;
+  height: 600px;
+  /*align: left;
+  float: left;*/
+}
+
+#PageText {
+  background-image: url("images/Text_Back.png");
+  margin: 0;
+  padding-top: 1%;
+  padding-left: 1%;
+  border: 2px solid white;
+  height: 600px;
+  width: 600px;
+  align: left;
+  float: left;
+}
+
+#Log {
+
+}
+
+#titleimg {
+  border: 2px solid white;
+}
+
+#Playarea {
+  padding: 0%;
+  margin: 0%;
+  margin-left: 5px;
+  margin-right: 5px;
+  display: block;
+  width: 650px;
+  height: 700px;
+  margin-left: 10%;
+  /*position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);*/
+}

@@ -1,0 +1,31 @@
+html {
+  background-color: black;
+  color: green;
+  margin-left: 5%;
+}
+
+body {
+}
+
+button {
+  background-color: black;
+  color: green;
+}
+
+input {
+  background-color: black;
+  color: green;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 0px;
+}
+#Instructions {
+  text-align: center;
+  margin-bottom: 0px;
+}
+h4 {
+  padding: 0px;
+  margin: 0px;
+}

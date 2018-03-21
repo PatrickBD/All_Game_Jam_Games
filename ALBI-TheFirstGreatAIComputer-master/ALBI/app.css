@@ -1,0 +1,87 @@
+html {
+  background-color: black;
+  color: green;
+}
+
+button {
+  background-color: black;
+  color: green;
+}
+input {
+  background-color: black;
+  color: green;
+}
+h1 {
+  text-align: center;
+  padding-right: 450px;
+  margin: 10px;
+  margin-bottom: 0px;
+}
+h4 {
+  padding: 0px;
+  margin: 0px;
+}
+
+#ComputerScreen {
+  float:left;
+  margin: 20px 5%;
+  margin-right: 0px;
+  padding-bottom: 0px;
+  border: 5px solid darkgray;
+  background-color: black;
+  height: 150px;
+  width: 700px;
+  color: green;
+}
+
+#typewriter {
+  white-space: pre-wrap !important;
+}
+
+#ComputerFace {
+  float: right;
+  margin: 20px 5%;
+  margin-left: 0px;
+  margin-right: 250px;
+  border: 5px solid darkgray;
+  background-color: black;
+  height: 150px;
+  width: 180px;
+  color: green;
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+#Input {
+  margin-top: 0px;
+  padding-left: 70px;
+}
+#MuteButton {
+  margin-left: 70px;
+  margin-top: 3px;
+}
+
+#Lab {
+    padding-left: 90px;
+    margin-top: 20px;
+}

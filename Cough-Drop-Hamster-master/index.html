@@ -1,0 +1,49 @@
+ <!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <title>Cough Drop Hamster</title>
+  <meta charset="UTF-8">
+  <link href="app.css" rel="stylesheet" media="all">
+  <script src="jquery-3.1.0.js"></script>
+</head>
+
+<body>
+  <h1>Cough Drop Hamster</h1>
+  <p id="JavascriptBlock">If you are seeing this, the javascript is blocked and the game won't play. Please to be unblocking. :)</p>
+  <!-- <p id="MapTest"></p> -->
+
+<h4><br style="clear:both"></h4>
+  <p id="Log"><p>
+  <button id='StartButton'>Start</button>
+  <button id='MuteButton'>Mute</button>
+  <button id='PauseButton'>Pause</button>
+  <div class="CharacterButtons">
+    <button id='InstructionsButton'>Instructions</button>
+    <img id='Hammy' src='characters/hammy_hammy.png' style='width: 30px;height: 30px'></img>
+    <img id='OldHammy' src='characters/old_hammy.png' style='width: 30px;height: 30px'></img>
+    <img id='CoolHammy' src='characters/cool_hammy.png' style='width: 30px;height: 30px'></img>
+    <img id='CyborgHammy' src='characters/cyborg_hammy.png' style='width: 30px;height: 30px'></img>
+    <img id='BardHammy' src='characters/bard_hammy.png' style='width: 30px;height: 30px'></img>
+    <img id='BarbarianHammy' src='characters/barbarian_hammy.png' style='width: 30px;height: 30px'></img>
+    <img id='HamHammy' src='characters/ham_hammy.png' style='width: 30px;height: 30px'></img>
+    <img id='TimeHammy' src='characters/time_hammy.png' style='width: 30px;height: 30px'></img>
+    <img id='BabyHammy' src='characters/baby_hammy.png' style='width: 30px;height: 30px'></img>
+    <img id='DevilHammy' src='characters/devil_hammy.png' style='width: 30px;height: 30px'></img>
+    <img id='ThiefHammy' src='characters/thief_hammy.png' style='width: 30px;height: 30px'></img>
+    <img id='HobbitHammy' src='characters/hobbit_hammy.png' style='width: 30px;height: 30px'></img>
+    <img id='RoboHammy' src='characters/robo_hammy.png' style='width: 30px;height: 30px'></img>
+  </div>
+  <div id="ScoreLine">
+    <a id="Score"></a><a id="HighScore"></a><a id="Level"></a><a id="Invisibility"></a>
+  </div>
+  <br>
+  <div id="Playarea">
+    <canvas id="canvas" width="900" height="460"></canvas>
+  </div>
+  <div class='AchievementIcons'></div>
+  <p id="StatusText">-Status-</p>
+
+  <script  src="app.js"></script>
+  <audio id="NomMusicPlayer" src="NomMusic.mp3" loop></audio>
+</body>
+</html>

@@ -1,5 +1,5 @@
-# All_Game_Jam_Games
-Here is all the games I made for public game jams, such as Ludum Dares. I collected all the repositories into one
+# Game_Jam_Games
+Here is all the games I made for public game jams, such as Ludum Dares. I collected all the repositories into one. Most are Html/Javascript Canvas games made in 72 or 48 hours.
 
 # Mole_of_Moles
 A game made for the 72 hour xkcd Game Jam based on the "What If?" article of the same name
